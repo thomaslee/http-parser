@@ -1,7 +1,7 @@
 OPT_DEBUG=-O0 -g -Wall -Wextra -Werror -I.
 OPT_FAST=-O3 -DHTTP_PARSER_STRICT=0 -I.
 
-CC?=gcc
+CC?=i586-mingw32msvc-gcc
 
 
 test: test_g
